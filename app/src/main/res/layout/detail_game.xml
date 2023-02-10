@@ -8,11 +8,68 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/scrollView2"
-        android:layout_width="409dp"
-        android:layout_height="785dp"
+        android:layout_width="401dp"
+        android:layout_height="1424dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteX="-1dp"
         tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="358dp"
+            android:layout_height="47dp"
+            android:text="Add to Favorite"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="1351dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developers"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="962dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publisher"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="1026dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Garena International"
+            android:textColor="@color/merah"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="1053dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="111 Dots Studio"
+            android:textColor="@color/biru_muda"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="989dp" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -79,20 +136,9 @@
             android:layout_height="158dp"
             android:textColor="@color/white"
             android:textSize="13dp"
-            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteX="17dp"
             tools:layout_editor_absoluteY="417dp"
             tools:text="@string/description" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="360dp"
-            android:layout_height="122dp"
-            android:textColor="@color/white"
-            android:textSize="13dp"
-            tools:layout_editor_absoluteX="13dp"
-            tools:layout_editor_absoluteY="585dp"
-            tools:text="@string/description1"
-            tools:ignore="DuplicateIds" />
 
         <TextView
             android:id="@+id/textView15"
@@ -100,10 +146,43 @@
             android:layout_height="80dp"
             android:textColor="@color/white"
             android:textSize="13dp"
-            tools:layout_editor_absoluteX="14dp"
-            tools:layout_editor_absoluteY="707dp"
-            tools:text="@string/description2"
-            tools:ignore="DuplicateIds" />
+            tools:ignore="DuplicateIds"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="683dp"
+            tools:text="@string/description2" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="363dp"
+            android:layout_height="87dp"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            tools:ignore="DuplicateIds"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="583dp"
+            tools:text="@string/description1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="359dp"
+            android:layout_height="78dp"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="773dp"
+            tools:text="@string/description3" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="362dp"
+            android:layout_height="77dp"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="860dp"
+            tools:text="@string/description5" />
 
         <TextView
             android:id="@+id/textView9"
@@ -113,7 +192,7 @@
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteX="17dp"
             tools:layout_editor_absoluteY="379dp" />
 
         <ImageView
@@ -124,85 +203,20 @@
             tools:layout_editor_absoluteX="323dp"
             tools:layout_editor_absoluteY="255dp" />
 
+        <ScrollView
+            android:layout_width="678dp"
+            android:layout_height="224dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="1091dp"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="359dp"
+            android:layout_height="220dp"
+            app:srcCompat="@drawable/freefire2"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="1095dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="358dp"
-        android:layout_height="47dp"
-        android:text="Add to Favorite"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="1237dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Developers"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="1126dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="111 Dots Studio"
-        android:textColor="@color/biru_muda"
-        android:textSize="15dp"
-        android:textStyle="italic"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="1153dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Publisher"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="1190dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Garena International"
-        android:textColor="@color/merah"
-        android:textSize="15dp"
-        android:textStyle="italic"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="1217dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="359dp"
-        android:layout_height="78dp"
-        android:textColor="@color/white"
-        android:textSize="13dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="789dp"
-        tools:text="@string/description3" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="362dp"
-        android:layout_height="77dp"
-        android:textColor="@color/white"
-        android:textSize="13dp"
-        tools:ignore="DuplicateIds,MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="878dp"
-        tools:text="@string/description5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
