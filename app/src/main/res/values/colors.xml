@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="abu_abu">#696767</color>
     <color name="kuning">#FFF62B</color>
+    <color name="biru_muda">#519EF9</color>
+    <color name="merah">#EC4040</color>
+    <color name="kuning_ijo">#B9E45C</color>
 </resources>
